@@ -3,6 +3,11 @@ import { Data } from "./Data";
 
 const App = () => {
   const [store, setStore] = useState(Data);
+  const [data, setData] = useState("");
+
+  const getData = (e) => {
+    setData(e.target.value);
+  }
   return (
     <div className="container">
       <h1 className="heading">Search Filter App</h1>
@@ -11,6 +16,7 @@ const App = () => {
         type="text"
         placeholder="Search..."
         className="search-input"
+        onChange={getData}
       />
 
       <div className="table-wrapper">
