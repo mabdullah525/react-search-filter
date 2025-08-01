@@ -11,6 +11,8 @@ const Search = () => {
         return (
           <div className="iteam-list">
             <p>{cur.name}</p>
+            <p></p>
+            <img />
 
           </div>
         );
