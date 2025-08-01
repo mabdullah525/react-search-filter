@@ -1,9 +1,9 @@
-import food1 from "./image/foods1.JPG"
+import food1 from "./Images/foods1.jpg"
 import food2 from "./image/foods2.jpg"
 import food3 from "./image/foods3.jpg"
 import food4 from "./image/foods4.webp"
 import food5 from "./image/foods5.jpg"
-import food6 from "./image/foods6.jpeg"
+import food6 from "./Images/foods6.jpg"
 
 
 export const Data = [
