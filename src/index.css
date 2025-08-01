@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
-
+body{
+    @apply bg-gradient-to-br from-purple-100 to-blue-100;
+}
 .container {
-  @apply min-h-screen bg-gradient-to-br from-purple-100 to-blue-100 py-10 px-4 flex flex-col items-center;
+  @apply min-h-screen  py-10 px-4 flex flex-col items-center;
 }
 
 .heading {
