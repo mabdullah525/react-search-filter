@@ -8,6 +8,9 @@ const App = () => {
   const getData = (e) => {
     setData(e.target.value);
   }
+  store.filter((cur) => {
+
+  })
   return (
     <div className="container">
       <h1 className="heading">Search Filter App</h1>
