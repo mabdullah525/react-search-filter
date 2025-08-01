@@ -13,16 +13,30 @@ const App = () => {
         className="search-input"
       />
 
-      <div className="card-wrapper">
-        {store.map((cur, index) => (
-          <div className="item-card" key={index}>
-            <img src={cur.img} alt={cur.name} className="item-img" />
-            <p className="item-name">{cur.name}</p>
-            <p className="item-brand">{cur.brand}</p>
-          </div>
-        ))}
+      <div className="table-wrapper">
+        <table className="table">
+          <thead>
+            <tr>
+              <th className="table-head">Name</th>
+              <th className="table-head">Brand</th>
+              <th className="table-head">Image</th>
+            </tr>
+          </thead>
+          <tbody>
+            {store.map((cur, index) => (
+              <tr key={index} className="table-row">
+                <td className="table-data">{cur.name}</td>
+                <td className="table-data">{cur.brand}</td>
+                <td className="table-data">
+                  <img src={cur.img} alt={cur.name} className="table-img" />
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
+
 
   );
 };
