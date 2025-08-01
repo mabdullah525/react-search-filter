@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
+import { Data } from "./Data";
 
-const App = () => {
-  return (
-    <div>App</div>
-  )
+const Search = () => {
+  return <div className="container">
+    <h1>Search Filter App</h1>
+    <input type="text" placeholder="Search..." />
+
+  </div>;
 }
-
-export default App
+export default Search;
