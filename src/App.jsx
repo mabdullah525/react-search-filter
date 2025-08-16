@@ -8,7 +8,9 @@ const App = () => {
   const getData = (e) => {
     setData(e.target.value);
   }
-  store.filter((cur) => {
+  let filterOut = store.filter((curVal) => {
+    return curVal.name.toLowerCase().includes(data) ||
+      curVal.brand.toLowerCase().includes(data);
 
   })
   return (
@@ -32,7 +34,7 @@ const App = () => {
             </tr>
           </thead>
           <tbody>
-            {store.map((cur, index) => (
+            {filterOut.map((cur, index) => (
               <tr key={index} className="table-row">
                 <td className="table-data">{cur.name}</td>
                 <td className="table-data">{cur.brand}</td>
