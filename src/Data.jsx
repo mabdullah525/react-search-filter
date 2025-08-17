@@ -1,4 +1,4 @@
-import food1 from "./images/foods1.JPG"; // capital extension
+import food1 from "./images/foods1.jpg";
 import food2 from "./images/foods2.jpg";
 import food3 from "./images/foods3.jpg";
 import food4 from "./images/foods4.webp";
