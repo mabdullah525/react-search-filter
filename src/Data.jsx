@@ -3,7 +3,7 @@ import food2 from "./Images/foods2.jpg";
 import food3 from "./Images/foods3.jpg";
 import food4 from "./Images/foods4.webp";
 import food5 from "./Images/foods5.jpg";
-import food6 from "./Images/foods6.jpeg";
+import food6 from "./Images/foods6.webp";
 
 
 export const Data = [
@@ -18,8 +18,8 @@ export const Data = [
         img:food2
     },
     {
-        name:"Dosa",
-        brand:"Anna",
+        name:"Shwarma",
+        brand:"Al-Baik",
         img:food3
     },
     {
@@ -33,8 +33,8 @@ export const Data = [
         img:food5
     },
     {
-        name:"Cake",
-        brand:"SoftCake",
+        name:"Red Velvet",
+        brand:"Layers",
         img:food6
     },
 ]
